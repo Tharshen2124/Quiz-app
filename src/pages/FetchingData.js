@@ -49,7 +49,7 @@ export default function ShowQuestions() {
             setStyleButton(styles.answerbutton);
         }
     } 
-    function checkAnswer(btn, i, answer) {
+    function checkAnswer(btn, i) {
         let correctIndex = answersArr.indexOf(data[quesno].correct_answer);
         if (correctIndex === i) {
             setMessage("Correct Answer!");
