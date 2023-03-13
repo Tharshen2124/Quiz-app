@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from '@component/styles/Home.module.css'
-import { shuffleArray } from "./helper";
+import shuffleArray from "../utils/helper"
 
 export default function ShowQuestions() {
 
